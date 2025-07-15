@@ -1,0 +1,55 @@
+I developed a responsive personal portfolio website using HTML, CSS, and JavaScript.
+ The goal was to showcase my technical skills, educational background, work experience, 
+ and completed projects in a clean and organized manner. The website includes different sections 
+ like About Me, Services I offer, My Work portfolio, and Contact information.
+  It also features an interactive navigation menu, a downloadable resume, 
+  and a contact form connected to Google Sheets to collect user messages.
+   This project highlights my front-end development abilities and provides visitors with 
+   a professional view of my profile."
+   ==================================================================
+   Of course, Kaveri! Here's a clear breakdown of the **functionalities** used in your **
+   Personal Portfolio Website** project—explained simply so you can talk about them confidently in an interview:
+
+---
+
+### ⚙️ Functionalities You Used
+
+#### 🧭 1. **Responsive Navigation Menu**
+- Hamburger icon (`☰`) opens the menu on mobile.
+- Close icon (`✖`) hides it.
+- Controlled using JavaScript functions: `openmenu()` and `closemenu()`.
+
+#### 🗂️ 2. **Tabbed Interface in About Section**
+- Tabs for **Skills**, **Education**, and **Experience**.
+- Clicking a tab shows only that section's content using `opentab(tabname)` JavaScript function.
+
+#### 📥 3. **Google Sheet Contact Form**
+- A user can fill in their name, email, and message.
+- Submits the form to a Google Sheet using a fetch POST request.
+- Shows “Message sent successfully” after submission and auto clears the form.
+
+#### 📄 4. **Downloadable Resume Button**
+- “Download CV” lets recruiters download your resume directly from the website.
+
+#### 📸 5. **Project Cards with Hover Effects**
+- In the “My Work” section, projects show image, title, and description.
+- On hover, the project info appears with a stylish overlay and icon link.
+
+#### 🎨 6. **Font Awesome Icons Everywhere**
+- Used for:
+  - Services section (code, database, laptop icons)
+  - Social media links
+  - Menu controls
+  - Contact info (email, phone, etc.)
+
+#### 📱 7. **Responsive Design**
+- CSS media queries and flexible layout ensure the site looks good on mobile, tablet, and desktop.
+
+#### 🔒 8. **Section Anchors for Smooth Navigation**
+- Clicking "Home," "About," "Services," etc. scrolls to those sections smoothly.
+
+---
+
+These features not only make your site **look professional**, but also make it **easy to use** 
+and **technically impressive**. If you'd like help turning this list into a short answer you can 
+say out loud—or practice explaining it for interviews—I’m here to rehearse with you 🎙️😊
